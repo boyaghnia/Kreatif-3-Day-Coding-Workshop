@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #404146;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #404146;
+  color: #fff;
+  height: 90px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-logo h2 {
+  font-size: 1.8em;
+}
+
+.header-logo p {
+  font-size: 0.9em;
+}
+
+.header-list ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-list li {
+  padding: 33px 25px;
+  font-size: 20px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-list a:hover {
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 4px 10px 30px rgba(49, 56, 55, 0.2);
+}
+
+/* MAIN 1 */
+
+.main {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copy-container {
+  width: 500px;
+}
+
+.copy-container img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.aside {
+  width: 500px;
+}
+
+.aside h1 {
+  font-size: 3.6rem;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}
+
+.aside h1 span {
+  color: salmon;
+}
+
+.aside p {
+  font-size: 1.1rem;
+  margin: 0px 0px 15px 0px;
+  font-style: justify;
+}
+
+.aside span {
+  font-weight: bold;
+}
+
+.portfolio-btn {
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #404146;
+  border-radius: 20px;
+  box-shadow: 4px 10px 30px rgba(49, 56, 55, 0.2);
+}
+
+/* MAIN 2 */
+
+.main2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  top: 100%;
+  position: absolute;
+}
+
+.about {
+  height: auto;
+  background-color: rgb(244, 244, 244);
+  padding: 20px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.about h3 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #404146;
+  margin-top: 15px;
+}
+
+.about p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.copy-container2 {
+  flex-basis: 40%;
+}
+
+.copy-container2 img {
+  height: 35px;
+  width: 35px;
+}
+
+.kontak {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.kontak img {
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.kontak p {
+  position: absolute;
+  display: inline;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+
+.aside2 {
+  flex-basis: 40%;
+}
+
+.aside2 ul li {
+  list-style: circle;
+}
+
+.contents,
+.contact-form,
+.footer {
+  text-align: center;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+}
+
+.contents-item img {
+  height: 300px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+}
+
+.contents-item p {
+  font-size: 1.09rem;
+  margin-top: 8px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Quicksand", sans-serif;
+  color: #404146;
+}
+
+.contact-submit {
+  width: 500px;
+  background-color: #404146;
+  color: #fff;
+  font-size: 22px;
+}
+
+.contact-form p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #404146;
+  color: #fff;
+  flex-direction: column;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  top: 360%;
+  position: absolute;
+}
